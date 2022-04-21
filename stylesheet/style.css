@@ -1,0 +1,168 @@
+/* font-family:'Josefin Sans', sans-serif;
+font-family: 'Mulish', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Mulish:wght@200&display=swap');
+
+/* ESTILOS HEADER */
+
+header {
+    background-image: url(../images/wallpaper_azul_oscuro_1920x1200_124.jpeg)
+}
+
+.header__title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+
+/* CAROUSEL */
+
+/* #carouselExampleDark {
+    height: 250px;
+} */
+
+#carousel1 {
+    height: 230px;
+    background-image: url(../images/1_kfoZJqoU5IDWz-u7ZclDtQ.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+#carousel2 {
+    height: 230px;
+    background-image: url(../images/image\ 2\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#carousel3 {
+    height: 230px;
+    background-image: url(../images/home\ image3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#carousel4 {
+    height: 230px;
+    background-image: url(../images/home\ image4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+    #carousel1 {
+        height: 400px;
+
+    }
+    #carousel2 {
+        height: 400px;
+
+    }
+    #carousel3 {
+        height: 400px;
+
+    }
+    #carousel4 {
+        height: 400px;
+
+    }
+}
+
+/* Estilos index */
+.home__images img {
+    height: 200px;
+}
+
+/* Contacto */
+
+.contact__title {
+    padding-top: 70px;
+}
+
+.textarea__contact textarea {
+    resize: none;
+}
+
+/* Login */
+.login__main {
+    background-image: url(../images/login\ wallpaper.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 200px;
+}
+
+.modal-content {
+    background-color: #1D2C55;
+    opacity: .85;
+    padding: 0 20px;
+    margin-bottom: 150px;
+    box-shadow: grey;
+}
+.user__image {
+    margin-top: -50px;
+    margin-bottom: 35px;
+} 
+
+.user__image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: grey;
+}
+
+.login__form {
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 0;
+}
+
+
+/* Estilos about */
+
+.about__main {
+    margin-top: 100px;
+}
+
+.gallery__about img {
+    width: 100%;
+}
+
+.gallery__about .img__big {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.gallery__about .img__small {
+    height: 200px;
+    padding: 10px 0;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+    .gallery__about .img__big {
+        height: 300px;
+    }
+    
+    .gallery__about .img__small {
+        height: 250px;
+        padding: 10px 0;
+    }
+}
+
+/* ESTILOS PAYMENT */
+.payment__main {
+    margin-top: 100px;
+}
+
+.payment__main img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
